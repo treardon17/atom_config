@@ -1,4 +1,9 @@
 "*":
+  "atom-material-ui":
+    tabs:
+      compactTabs: true
+    ui:
+      panelContrast: true
   autoclose:
     disabledFileExtensions: [
       "scss"
@@ -13,10 +18,17 @@
     packagesWithKeymapsDisabled: [
       "emmet"
     ]
+    projectHome: "/Users/alex/Code/"
     telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "one-dark-syntax"
+    ]
+    titleBar: "hidden"
   editor:
-    showIndentGuide: true
-    showInvisibles: true
+    fontFamily: "\"Roboto Mono\""
+    fontSize: 15
+    lineHeight: 1.75
   emmet:
     formatLineBreaks: false
   "exception-reporting":
@@ -26,7 +38,9 @@
     taggedTemplateGrammar: [
       "pug:source.pug"
     ]
+  "project-manager": {}
   "tree-view":
+    alwaysOpenExisting: true
     hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false

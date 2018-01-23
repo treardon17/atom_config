@@ -1,1 +1,14 @@
-[]
+[
+  {
+    title: "Tma Lays Smiles"
+    paths: [
+      "/Users/alex/Code/tma-lays-smiles"
+    ]
+  }
+  {
+    title: "Lofty Gatsby Starter"
+    paths: [
+      "/Users/alex/Code/lofty-gatsby-starter"
+    ]
+  }
+]

@@ -30,6 +30,9 @@
       "source.python": [
         "BUCK"
       ]
+    disabledPackages: [
+      "wrap-guide"
+    ]
     packagesWithKeymapsDisabled: [
       "emmet"
     ]
@@ -54,6 +57,7 @@
       "pug:source.pug"
     ]
   "linter-eslint":
+    fixOnSave: true
     lintHtmlFiles: true
     scopes: [
       "source.js"

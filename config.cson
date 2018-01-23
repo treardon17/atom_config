@@ -1,0 +1,32 @@
+"*":
+  autoclose:
+    disabledFileExtensions: [
+      "scss"
+    ]
+  "autocomplete-paths":
+    enableHtmlSupport: true
+    ignoredPatterns: [
+      "node_modules"
+    ]
+  core:
+    audioBeep: false
+    packagesWithKeymapsDisabled: [
+      "emmet"
+    ]
+    telemetryConsent: "no"
+  editor:
+    showIndentGuide: true
+    showInvisibles: true
+  emmet:
+    formatLineBreaks: false
+  "exception-reporting":
+    userId: "6a6feed8-2edf-40c7-accc-d31b3a1dec21"
+  "language-babel":
+    emmetCSSAutocomplete: true
+    taggedTemplateGrammar: [
+      "pug:source.pug"
+    ]
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

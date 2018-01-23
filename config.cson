@@ -42,6 +42,7 @@
       "pug:source.pug"
     ]
   "linter-eslint":
+    lintHtmlFiles: true
     scopes: [
       "source.js"
       "source.jsx"

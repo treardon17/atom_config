@@ -1,4 +1,7 @@
 "*":
+  "atom-ide-ui":
+    use:
+      "atom-ide-diagnostics-ui": false
   "atom-material-ui":
     tabs:
       compactTabs: true
@@ -37,6 +40,15 @@
     emmetCSSAutocomplete: true
     taggedTemplateGrammar: [
       "pug:source.pug"
+    ]
+  "linter-eslint":
+    scopes: [
+      "source.js"
+      "source.jsx"
+      "source.js.jsx"
+      "source.babel"
+      "source.js-semantic"
+      "source.vue"
     ]
   "project-manager": {}
   "tree-view":

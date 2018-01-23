@@ -1,6 +1,7 @@
 blob-store
 compile-cache
 dev
+.DS_Store
 storage
 .apm
 .node-gyp

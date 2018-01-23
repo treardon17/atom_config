@@ -18,6 +18,18 @@
     ]
   core:
     audioBeep: false
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
     packagesWithKeymapsDisabled: [
       "emmet"
     ]
@@ -52,7 +64,13 @@
       "source.vue"
     ]
   "linter-ui-default":
+    panelHeight: 530
     showPanel: true
+  nuclide:
+    "nuclide-home":
+      showHome: false
+    use:
+      "atom-ide-diagnostics-ui": false
   "project-manager": {}
   "tree-view":
     alwaysOpenExisting: true

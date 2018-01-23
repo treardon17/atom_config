@@ -50,6 +50,8 @@
       "source.js-semantic"
       "source.vue"
     ]
+  "linter-ui-default":
+    showPanel: true
   "project-manager": {}
   "tree-view":
     alwaysOpenExisting: true

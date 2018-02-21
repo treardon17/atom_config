@@ -56,6 +56,8 @@
     taggedTemplateGrammar: [
       "pug:source.pug"
     ]
+  linter:
+    lintOnChangeInterval: 2000
   "linter-eslint":
     fixOnSave: true
     lintHtmlFiles: true

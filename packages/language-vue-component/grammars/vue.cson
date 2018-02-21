@@ -1,6 +1,7 @@
 'name': 'Vue Component'
 'scopeName': 'text.html.vue'
 'fileTypes': [
+  'meow'
   'vue'
   'vue.html'
 ]

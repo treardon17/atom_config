@@ -1,5 +1,6 @@
 fileTypes: [
   "vue"
+  "meow"
 ]
 name: "Vue Component"
 patterns: [

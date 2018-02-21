@@ -68,7 +68,6 @@
       "source.vue"
     ]
   "linter-ui-default":
-    panelHeight: 530
     showPanel: true
   nuclide:
     "nuclide-home":
@@ -78,6 +77,6 @@
   "project-manager": {}
   "tree-view":
     alwaysOpenExisting: true
-    hideVcsIgnoredFiles: true
+    hideIgnoredNames: true
   welcome:
     showOnStartup: false
